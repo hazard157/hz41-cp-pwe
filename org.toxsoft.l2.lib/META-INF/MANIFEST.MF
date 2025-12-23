@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: USkat L2 (LowLevel) core library
+Bundle-SymbolicName: org.toxsoft.l2.lib
+Bundle-Vendor: toxsoft.org
+Bundle-Version: 1.0.0.qualifier
+Export-Package: org.toxsoft.l2.lib,
+ org.toxsoft.l2.lib.app,
+ org.toxsoft.l2.lib.devices,
+ org.toxsoft.l2.lib.hal,
+ org.toxsoft.l2.lib.l10n,
+ org.toxsoft.l2.lib.net,
+ org.toxsoft.l2.lib.reserve
+Require-Bundle: org.toxsoft.core.tslib,
+ org.toxsoft.extlibs.log4j,
+ org.toxsoft.uskat.core,
+ org.toxsoft.core.log4j
+Automatic-Module-Name: org.toxsoft.l2.lib
+Bundle-RequiredExecutionEnvironment: JavaSE-21

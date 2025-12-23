@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: USkat L2 (LowLevel) Testing and sample applications
+Bundle-SymbolicName: org.toxsoft.l2.test.exe
+Bundle-Version: 1.0.0.qualifier
+Export-Package: org.toxsoft.l2.test.exe,
+ org.toxsoft.l2.test.exe.standalone
+Require-Bundle: org.toxsoft.core.tslib,
+ org.toxsoft.core.log4j,
+ org.toxsoft.l2.lib
+Bundle-Vendor: toxsoft.org
+Automatic-Module-Name: org.toxsoft.l2.test.exe
+Bundle-RequiredExecutionEnvironment: JavaSE-21
